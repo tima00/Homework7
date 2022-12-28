@@ -3,5 +3,8 @@ public class Magic extends Hero{
         super(health,damage,superAbilityType);
     }
 
-
+    @Override
+    public void applySuperAbility(String SuperAbilityType) {
+        System.out.println(SuperAbilityType);
+    }
 }

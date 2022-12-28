@@ -10,6 +10,6 @@ public class Hero implements HavingSuperAbility {
 
     @Override
     public void applySuperAbility(String SuperAbilityType) {
-
+        System.out.println(SuperAbilityType);
     }
 }
